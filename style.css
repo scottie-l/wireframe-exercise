@@ -49,16 +49,16 @@ main {
 }
 
 .featSect { 
-    display: inline-block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
+    padding: 50px;
     height: 400;
-    width: 50%;
-    /* justify-items: content;  */
+    width: 100%;
+    justify-content: space-between;
 }
 
 #featureSection {
-    display: inline-block;
     margin-left: 10px;
     margin-right: 10px;
     height: 400;
@@ -67,7 +67,6 @@ main {
 
 #textArea {
     border: thin black solid;
-    display: inline-block;
     margin-left: 10px;
     margin-right: 10px;
     height: 400px;
