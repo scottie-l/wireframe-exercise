@@ -7,6 +7,7 @@
 
 header {
     background-color: grey;
+    width: 960px;
     height: 90px;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -26,13 +27,16 @@ button {
 
 main {
     margin-top: 30px;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .heroImage {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 100%;
     padding-bottom: 30px;
 }
 
@@ -50,9 +54,9 @@ main {
 
 .featSect { 
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 50px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 30px;
     height: 400;
     width: 100%;
     justify-content: space-between;
@@ -61,14 +65,18 @@ main {
 #featureSection {
     margin-left: 10px;
     margin-right: 10px;
+    padding: 12px;
     height: 400;
     width: 50%;
 }
 
 #textArea {
     border: thin black solid;
+    box-sizing: border-box;
+    margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
+    padding: 30px;
     height: 400px;
     width: 50%;
     overflow: scroll;
